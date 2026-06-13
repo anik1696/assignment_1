@@ -94,7 +94,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       appBar: AppBar(
         title: const Text("My Profile"),
         centerTitle: true,
-        backgroundColor: Colors.indigo,
+        backgroundColor : Colors.green,
         foregroundColor: Colors.white,
         elevation: 0,
       ),
@@ -114,8 +114,10 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   decoration: const BoxDecoration(
                     gradient: LinearGradient(
                       colors: [
-                        Colors.indigo,
-                        Colors.deepPurple,
+                        Colors.yellow,
+                        Colors.orange,
+                        Colors.redAccent,
+
                       ],
                     ),
                   ),
@@ -132,9 +134,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       ),
                     ),
                     child: const CircleAvatar(
-                      radius: 55,
+                      radius: 80,
                       backgroundImage:
-                      AssetImage("assets/images/profile.jpg"),
+                      AssetImage("assets/images/profile.png"),
                     ),
                   ),
                 ),
@@ -148,10 +150,18 @@ class _ProfileScreenState extends State<ProfileScreen> {
               child: Column(
                 children: [
                   Text(
-                    "John Doe",
+                    "Sahreyar Ahmed",
                     style: TextStyle(
-                      fontSize: 26,
+                      fontSize: 28,
                       fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 5),
+                  Text(
+                    "Software Engineer",
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: Colors.black54,
                     ),
                   ),
                   SizedBox(height: 5),
@@ -184,9 +194,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
               ),
               child: Row(
                 children: [
-                  buildStat("25", "Projects"),
-                  buildStat("1.5K", "Followers"),
-                  buildStat("3+", "Years Exp"),
+                  buildStat("8", "Projects"),
+                  buildStat("200", "Followers"),
+                  buildStat("5+", "Years Exp"),
                 ],
               ),
             ),
@@ -235,6 +245,21 @@ class _ProfileScreenState extends State<ProfileScreen> {
                       ),
                     ),
                   ),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: ElevatedButton.icon(
+                      onPressed: () {},
+                      icon: const Icon(Icons.message),
+                      label: const Text("Call"),
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.purple,
+                        foregroundColor: Colors.white,
+                        padding: const EdgeInsets.symmetric(
+                          vertical: 14,
+                        ),
+                      ),
+                    ),
+                  ),
                 ],
               ),
             ),
@@ -266,25 +291,25 @@ class _ProfileScreenState extends State<ProfileScreen> {
                   buildInfoTile(
                     Icons.email,
                     "Email",
-                    "john@example.com",
+                    "aniksahreyar@gmail.com",
                   ),
 
                   buildInfoTile(
                     Icons.badge,
                     "Student ID",
-                    "221-15-5678",
+                    "232-134-036",
                   ),
 
                   buildInfoTile(
                     Icons.school,
                     "Department",
-                    "Computer Science",
+                    "Software Engineering",
                   ),
 
                   buildInfoTile(
                     Icons.calendar_month,
                     "Batch",
-                    "61st",
+                    "5th",
                   ),
                 ],
               ),
