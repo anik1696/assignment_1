@@ -5,8 +5,8 @@ A passionate Software Engineer specializing in **Flutter Development**, dedicate
 ## 📱 Application Preview
 
 <p align="center">
-  <img src="1000188139.jpg" alt="Profile Home Screen" width="45%" />
-  <img src="1000188141.jpg" alt="Profile Details Screen" width="45%" />
+  <img src="ss1.jpg" alt="Profile Home Screen" width="45%" />
+  <img src="ss2.jpg" alt="Profile Details Screen" width="45%" />
 </p>
 
 ---
