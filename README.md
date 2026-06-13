@@ -1,6 +1,15 @@
 # Sahreyar Ahmed - Software Engineer & Flutter Developer
 
-A passionate Software Engineer specializing in **Flutter Developer**, dedicated to crafting beautiful, high-performance, and responsive user interfaces while solving complex real-world problems through innovative mobile technology.
+A passionate Software Engineer specializing in **Flutter Development**, dedicated to crafting beautiful, high-performance, and responsive user interfaces while solving complex real-world problems through innovative mobile technology.
+
+## 📱 Application Preview
+
+<p align="center">
+  <img src="1000188139.jpg" alt="Profile Home Screen" width="45%" />
+  <img src="1000188141.jpg" alt="Profile Details Screen" width="45%" />
+</p>
+
+---
 
 ## 🚀 About Me
 I am a Software Engineering student currently in my 5th batch, actively building and deploying modern mobile applications. With hands-on experience spanning multiple projects, I thrive on writing clean, maintainable code and leveraging the power of Flutter to deliver exceptional user experiences.
@@ -14,13 +23,9 @@ I am a Software Engineering student currently in my 5th batch, actively building
 
 ## 🛠️ Tech Stack & Skills
 - **Core Mobile:** Flutter, Dart
-- **Architecture:** MVVM, Bloc, Provider, GetX
-- **UI/UX:** Responsive layouts, Custom Animations, Pixel-perfect design implementation
+- **Architecture:** MVVM, BLoC, Provider, GetX
+- **UI/UX:** Responsive Layouts, Pixel-perfect UI, Custom Animations
 - **Tools & Platforms:** Git, GitHub, Firebase, REST APIs
 
 ## 📩 Connect with Me
 - **Email:** [aniksahreyar@gmail.com](mailto:aniksahreyar@gmail.com)
-- **GitHub:** [github.com/your-username](https://github.com) *(Update with your actual link)*
-
----
-*Generated directly from profile portfolio data.*
